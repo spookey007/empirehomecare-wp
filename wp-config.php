@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'clqgsk8m8001c9ns354234s30' );
 
 /** Database username */
-define( 'DB_USER', 'clqgsk8m5001a9ns3days0l1g' );
+define( 'DB_USER', 'clqgt56u0001g9ns307f1djj3' );
 
 /** Database password */
 define( 'DB_PASSWORD', '1CE6viTOKlWutT23HdifiY8w' );
 
 /** Database hostname */
-define( 'DB_HOST', 'clqgsk8md0042s39necdorvwg' );
+define( 'DB_HOST', 'clqgtl07l005es39nueodcdeh' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
