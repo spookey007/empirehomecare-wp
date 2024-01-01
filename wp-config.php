@@ -20,23 +20,30 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'clqgsk8m8001c9ns354234s30' );
+define( 'DB_NAME', 'clqo1axw700269ns31map9hqu' );
 
 /** Database username */
-define( 'DB_USER', 'clqgt56u0001g9ns307f1djj3' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '1CE6viTOKlWutT23HdifiY8w' );
+define( 'DB_PASSWORD', 'clqu9mvms00309ns34z8l0spy' );
 
 /** Database hostname */
-define( 'DB_HOST', 'clqgtl07l005es39nueodcdeh' );
+define( 'DB_HOST', '45.77.222.55' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+# update wp-config file
+define('WP_HOME','https://empirewp.galico.io');
+define('WP_SITEURL','https://empirewp.galico.io');
 
+#also add
+define('FORCE_SSL_ADMIN', true);
+if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false)
+    $_SERVER['HTTPS']='on';
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -79,7 +86,7 @@ $table_prefix = 'emw_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
