@@ -37,8 +37,8 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 # update wp-config file
-define('WP_HOME','https://empirewp.galico.io');
-define('WP_SITEURL','https://empirewp.galico.io');
+define('WP_HOME','https://empirehomecareagency.org/');
+define('WP_SITEURL','https://empirehomecareagency.org/');
 
 #also add
 define('FORCE_SSL_ADMIN', true);
